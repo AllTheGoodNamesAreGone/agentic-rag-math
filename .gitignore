@@ -1,5 +1,36 @@
+# Environment variables
+.env
+*.env
+.env.local
+
+# Python
 __pycache__/
 *.pyc
-*.log
-.env/
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Data files
+data/*.json
+data/*.csv
+data/feedback/
+
+# IDE
 .vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Streamlit
+.streamlit/secrets.toml

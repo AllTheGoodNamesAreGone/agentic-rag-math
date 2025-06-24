@@ -18,8 +18,8 @@ An intelligent mathematics tutoring system built with LangGraph, featuring hybri
 
 ```bash
 # Clone and navigate
-git clone <your-repo>
-cd math-agentic-rag
+git clone https://github.com/AllTheGoodNamesAreGone/agentic-rag-math.git
+cd agentic-rag-math
 
 # Create virtual environment
 python -m venv venv
@@ -28,3 +28,13 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 # Install dependencies
 pip install -r requirements.txt
 ```
+
+### 2. Setup Docker and Qdrant
+
+### 3. Run initial system setup (One time only, creates knowledge base)
+
+### 4. Test agent
+
+### 5. Run streamlit app
+
+### 6. JEE Benchmark (To be included)

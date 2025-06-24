@@ -27,6 +27,8 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 
 # Install dependencies
 pip install -r requirements.txt
+
+#Rename .env.example file to .env, replace placeholders with required API keys
 ```
 
 ### 2. Setup Docker and Qdrant
